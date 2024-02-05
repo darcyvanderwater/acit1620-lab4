@@ -2,6 +2,7 @@
     --base-color: hsla(0, 86%, 36%, 0.822);
     --base-font-color:var(--base-font-color)
 }
+
 .heading {
     background-color: var(--base-color, red);
     text-align:center;
@@ -9,23 +10,23 @@
 
 
 }
+
 .mylinks {
     text-align: center;
-    text-decoration: none;
-    float: left;
-    padding-left: 30px;
-    margin-bottom: 2rem;
-    
+    text-decoration: none;  
     
 
 }
-ul {
-    list-style-type: none;
+
+li {
+    margin-right: 1rem;
+    display: inline-block;
 }
+
 .copyright {
-    text-align: center;
-    bottom: 0px;
+    width: 100%;
+    text-align:center;
+    position: absolute;
+    bottom: 2px;
     
-}
-.bodytext {
 }
