@@ -1,11 +1,11 @@
 :root {
     --base-color: hsla(210, 86%, 36%, 0.822);
-    --base-font-color:var(--base-font-color)
+    --base-font-color:goldenrod;
 
 }
 
 .heading {
-    color: goldenrod;
+    color: var(--base-font-color);
     background-color: var(--base-color, red);
     text-align:center;
     padding: 2rem;
@@ -26,6 +26,7 @@
 }
 .mylinks:hover {
     color: red;
+    
 }
 
 li {
@@ -43,7 +44,10 @@ padding:1rem;
 }
 
 .copyright {
+    background-color: lightblue;
     margin-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 100%;
     text-align:center;
     position: absolute;
