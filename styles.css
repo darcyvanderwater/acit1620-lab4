@@ -28,6 +28,7 @@
     transition:all, 1s;
    
 }
+
 .linkcontainer {
     display: flex;
     flex-direction: row;
@@ -36,6 +37,7 @@
     list-style-type: none;
     
 }
+
 .mylinks:hover {
     transform: scale(1.2);
     transition: 0.5s;
@@ -50,6 +52,7 @@ li {
     transition:all, 0.5s;
 
 }
+
 li:hover {
     transform:translate(3px, -4px);
     transition-delay: 0.2s;
@@ -77,6 +80,5 @@ transition: all, 1s;
     text-align:center;
     position: absolute;
     bottom: 2px;
-    border-top: solid, 200px, blue;
-    
+    border-top: 3px solid blue;  
 }
